@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    background-image: url('../img/fundo.jpg');
+
+    
+    
+}
+
+header{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    
+    margin: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    color: aliceblue;
+    
+    
+}
+.box{
+    padding: 15px;
+    width: 500px;
+    height: 1250px;
+    margin: 0.001%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    border-radius: 15px;
+
+    color:aliceblue;
+    background-color: dimgray;
+}
+.img{
+    width: 30px;
+    padding: 180px;
+    width: 300px;
+    height: 1200px;
+    
+}
+.input{
+    width: 100%;
+    margin: 1%;
+    margin-left: 0;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    
+
+}
+fieldset{
+    border-style:none;
+    
+  
+}
+legend{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color:rgb(73, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+.botao{
+    font-size: medium;
+    background-color:black;
+    color:white;
+}

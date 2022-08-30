@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Devs</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="box img">
+            
+                <img src="./assets/img/LOGOPNG.jpg" alt="">
+                
+
+            </div>
+
+            <div class="box text"><!--action é para onde meus daods serão enviados e o method é como esses dados serao enviado sendo get enviado pela URL e post enviando por tras dos panos-->
+        
+                <fieldset>
+                    <div>
+                        <h1>Cadastre-se aqui:</h1>
+                        <legend>Nos conte como é a sua casa dos sonhos!</legend>
+                    </div>
+                    <br>
+                    
+                    <form action="redicionamento.html" method="post">
+                        <div>
+                            <label for="numero">Número de membros da família</label>
+                            <input type="number" name="numero" id="" class="input">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="nome">Nome dos membros </label><!--Da o titulo para o input la na pagina, for o id do campo que sera referenciado-->
+                            <input type="text" name="Nome" id="nome"  class="input"> <!--abre caixa para preenchimento do usuário, a propiedade name é o campo que sera enviado ao bakend e o id é o id desse input-->
+                            <!--placeholder-->
+                        </div>
+                        <br>
+        
+                        <div>
+                            <label for="telefon">Telefone para contato</label>
+                            <input type="tel" name="telefone" id="telefone" class="input">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="input">
+                        </div>
+                        <div>
+                            <!--Radio, para ter a opção para marcação unica. -->
+                            <p>Estilo da construção</p>
+                            <label for="Moderno">Moderno</label>
+                            <input type="radio" name="estilo construcao" id="moderno" value="M">
+                            <label for="Classico">Classico</label>
+                            <input type="radio" name="estilo construcao" id="classico" value="C">
+                        </div>
+                        <div>
+                            <p>Mês de previsão de Início da Obra</p>
+                            <input type="month" name="" id="" class="input">
+                        </div>
+                        <br>
+                        <div>
+                            <p>Ambientes</p><br>
+                            <label for="quartos">Numero de quartos</label>
+                            <input type="number" name="quartos" id="quartos" class="input">
+                        </div><br>
+                        <div>
+                            <label for="suite">Numero de suites</label>
+                            <input type="number" name="" id="" class="input">
+                        
+                        </div><br>
+                        <div>
+                            <label for="coz">Cozinha integrada?</label>
+                            <label for="sim">Sim</label>
+                            <input type="radio" name="sim" id="sim" >
+                            <label for="nao">Não</label>
+                            <input type="radio" name="nao" id="nao" >
+                        </div><br>
+                        <div>
+                            <label for="coz">Área de Lazer?</label>
+                            <label for="sim">Sim</label>
+                            <input type="radio" name="sim" id="sim" >
+                            <label for="nao">Não</label>
+                            <input type="radio" name="nao" id="nao" >
+                        </div><br>
+                        <div>
+                            <label for="coz">Garragem Coberta?</label>
+                            <label for="sim">Sim</label>
+                            <input type="radio" name="sim" id="sim" >
+                            <label for="nao">Não</label>
+                            <input type="radio" name="nao" id="nao" >
+                        </div><br>
+                        <div>
+                            <label for="coz">Piscina?</label>
+                            <label for="sim">Sim</label>
+                            <input type="radio" name="sim" id="sim" >
+                            <label for="nao">Não</label>
+                            <input type="radio" name="nao" id="nao" >
+                        </div>
+                        <div>
+                            <!--Checkbox, marcacao em mais de uma caixa-->
+                            <p>Ambientes que eu quero render:</p>
+                            <label for="Js">Cozinha</label>
+                            <input type="checkbox" name="ambiente" id="cz" value="am">
+        
+                            <label for="php">Sala</label>
+                            <input type="checkbox" name="linguagem" id="php" value="php">
+        
+                            <label for="csharp">Suite Master</label>
+                            <input type="checkbox" name="linguagem" id="csharp" value="csharp">
+        
+                            <label for="">WC Master</label>
+                            <input type="checkbox" name="linguagem" id="cmais" value="cmais">
+                            <label for="">Área de lazer</label>
+                            <input type="checkbox" name="linguagem" id="cmais" value="cmais">
+                            <label for="">Fachadas</label>
+                            <input type="checkbox" name="linguagem" id="cmais" value="cmais">
+                        </div>
+                      
+                        <div>
+                            <p>Fale sobre o dia-a-dia da sua família:</p>
+                            <textarea name="sobrevc" id="sobrevc" cols="30" rows="5" class="input"></textarea>
+                        </div>
+                        <div>
+                            <p>Melhor data para reunião presencial: </p>
+                            <input type="date" name="data" id="data" class="input">
+                        </div>
+                        <br>
+                      
+                        <div>
+                            <input class="botao" type="submit" value="Cadastrar" id="submit">
+                        </div>
+        
+                    </form>
+        
+                </fieldset>
+                </div>
+        </div>
+        
+        
+
+        
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
